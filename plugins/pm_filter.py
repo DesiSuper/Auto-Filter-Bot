@@ -554,8 +554,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🚀 Telegraph', callback_data='tele'),
             InlineKeyboardButton('⚡ Fancy Font', callback_data='source') 
          ], [
-            InlineKeyboardButton('🎨 GitHub Repo', callback_data='removebgx'), 
-             InlineKeyboardButton('🌐 Open Al', callback_data='openai') 
+            InlineKeyboardButton('🎨 GitHub Repo', callback_data='removebgx'),
+            InlineKeyboardButton('🔗 Short URL', callback_data='urlshort'),
+            InlineKeyboardButton('🌐 Open Al', callback_data='openai') 
          ], [
             InlineKeyboardButton('🏡 Home', callback_data='start')
         ]]

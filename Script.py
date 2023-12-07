@@ -32,21 +32,13 @@ class script(object):
 
  • /telegraph - Send Me Picture Or Video Under 5MB.</b>""" 
 
-    REMOVEBGX_TXT = """
+    GITHUB_TXT = """
 You Can Use This Feature To Search GitHub Repo.
 
 <b>Feature:</b>
 
  /repo: <b>Use This Commands To Search Github Repo</b> 
  Example:<code>/repo auto filter...</code> 
-</b>"""
-    
-    URLSHORT_TXT = """<b>You Can Use This Feature To Meke Short URL. 
-  
- Commands And Usage: 
-  
- /short: <b>Use This Commands With Your Link To Get Short Links</b> 
- Example:<code>/short https://youtu.be/example...</code> 
 </b>"""
     
     STICKER_TXT = """<b>You Can Use This Feature To Find Any Stickers ID.  
@@ -167,7 +159,7 @@ I can't find the <b>{}</b> in my database! 🥲
 /id - to check group or channel id
 /openai - Find solution to any question with ChatGPT</b>"""
 
-    SOURCE_TXT = """<b>You Can Use This Feature To Change Font Style   
+    FONT_TXT = """<b>You Can Use This Feature To Change Font Style   
   
  ⚡️ /font Your Text
  Example:- /font TeamYourX 

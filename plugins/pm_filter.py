@@ -910,7 +910,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>🦹 Requested By {message.from_user.mention},\n✅ Search Results:- {search}\n🦉 Result Show In:- {remaining_seconds} Seconds\n⚡ Powered By:- {message.chat.title} \n🎬 Total File Found :- {total_results}</b>"
+        cap = f"<b>🦹 Requested By {message.from_user.mention},\n✅ Search Results:- {search}\n⚡ Powered By:- {message.chat.title} \n🎬 Total File Found :- {total_results}</b>"
     CAP[key] = cap
     del_msg = f"\n\n<b>⚠️ ᴛʜɪs ᴍᴇssᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇ ᴀꜰᴛᴇʀ <code>{get_readable_time(DELETE_TIME)}</code> ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇs</b>" if settings["auto_delete"] else ''
     if imdb and imdb.get('poster'):
